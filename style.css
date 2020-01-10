@@ -8,8 +8,22 @@ body {
     box-sizing: border-box;
     background: #EBEBEA;
 }
+.container {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    width: 80%;
+    height: 50vh;
+    background-image: url("img/soybeans-on-bowl-and-cooked-dumplings-and-chicken-on-top-of-1860196.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
 .nav {
     height: 60px;
+    float: right;
 }
 label {
     display: block;
@@ -17,10 +31,73 @@ label {
     font-weight: 700;
     color: white;
     cursor: pointer;
-    margin: 1rem 0 0 1rem;
+    padding: .5rem 0 0 1rem;
+    display: none;
+}
+#toggle {
+    display: none;
+}
+.menu {
+    padding-top: 1rem;
 }
 .menu a {
     text-decoration: none;
     color: white;
     margin: 0 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .menu {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    label {
+        display: block;
+    }
+    .menu a {
+        display: block;
+        margin: 0;
+        line-height: 1.6;
+    }
+    #toggle:checked + .menu {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
 }
