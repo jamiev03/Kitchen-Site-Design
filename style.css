@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: #EBEBEA;
+}
+.nav {
+    height: 60px;
+}
+label {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin: 1rem 0 0 1rem;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem;
+}
