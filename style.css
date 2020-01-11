@@ -118,28 +118,32 @@ input {
     cursor: pointer;
 }
 .first-sub-hero {
-    width: 650px;
-    margin: 2.5rem auto;
+    width: 660px;
+    margin: 4.5rem auto 6rem auto;
     text-align: center;
+    font-weight: 700;
 }
 p {
     color: white;
     line-height: 1.5;
+    letter-spacing: 1px;
 }
 .first-content {
     display: flex;
-    width: 80%;
-    margin: 0 auto;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto 5rem auto;
 }
 .images {
-
+    flex: 1;
 }
 .story {
-    
+    flex: 1;
 }
 img {
     width: 300px;
-    height: auto;
+    height: 200px;
+    margin: 5px;
 }
 
 
