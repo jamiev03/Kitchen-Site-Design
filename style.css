@@ -178,11 +178,29 @@ img {
     width: 25%;
     height: auto;
     margin: 0;
-    opacity: 0.7;
+    opacity: 0.5;
     transition: 0.2s;
 }
 .insta:hover {
     opacity: 1;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3.5rem;
+    margin-bottom: 7.5rem;
+}
+.social-media i {
+    color: white;
+    font-size: 3rem;
+    margin: 10px;
+    cursor: pointer;
+}
+.terms {
+    text-align: center;
+    margin-bottom: 2.5rem;
 }
 
 
