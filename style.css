@@ -91,32 +91,55 @@ button:hover {
     transition: .3s;
 }
 .reservation {
-    width: 600px;
+    width: 620px;
     text-align: center;
     margin: -2.5rem auto 2rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 0 35px;
+    padding: 0 0 0 30px;
     background: rgb(255, 255, 255);
 }
 .form {
     display: flex;
 }
 .form i {
-    margin-right: .4rem;
+    margin-right: .6rem;
     color: #1c1c1c;
 }
 input {
     border: 1px solid lightgray;
 }
 .reserve  {
-    margin: none;
     padding: 1.8rem 1.4rem;
     background: rgb(172, 2, 2);
     color: white;
     font-weight: 700;
     cursor: pointer;
+}
+.first-sub-hero {
+    width: 650px;
+    margin: 2.5rem auto;
+    text-align: center;
+}
+p {
+    color: white;
+    line-height: 1.5;
+}
+.first-content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.images {
+
+}
+.story {
+    
+}
+img {
+    width: 300px;
+    height: auto;
 }
 
 
