@@ -136,12 +136,14 @@ p {
 }
 .images {
     flex: 1;
+    margin: 10px;
 }
 .story {
     flex: 1;
+    margin: 10px;
 }
 img {
-    width: 300px;
+    width: 310px;
     height: 200px;
     margin: 5px;
 }
