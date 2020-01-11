@@ -205,34 +205,6 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 600px) {
     .logo {
         margin-right: 0;
@@ -257,5 +229,41 @@ img {
         display: block;
         visibility: visible;
         opacity: 1;
+    }
+}
+@media screen and (max-width: 768px) {
+    .first-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto 5rem auto;
+    }
+    img {
+        width: 270px;
+        height: 180px;
+        margin: 5px;
+    }
+    .images {
+        flex: 1;
+    }
+    .story {
+        flex: 1;
+    }
+
+}
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+    .first-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto 5rem auto;
+    }
+    img {
+        width: 230px;
+        height: 150px;
+        margin: 5px;
     }
 }
